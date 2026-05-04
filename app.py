@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 
 # Set page configuration
 st.set_page_config(
-    page_title="NexGen Logistics AI Dashboard",
+    page_title="PT. Remenia Satori Lepas Logistics AI Dashboard",
     page_icon="🚚",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -422,7 +422,7 @@ def main():
     """Main application function"""
     
     # Header
-    st.markdown('<h1 class="main-header">🚚 NexGen Logistics AI Optimization Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🚚 PT. Remenia Satori Lepas Logistics AI Dashboard</h1>', unsafe_allow_html=True)
     
     st.markdown("""
     <div style="text-align: center; margin-bottom: 2rem;">
