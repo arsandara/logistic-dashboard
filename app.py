@@ -19,12 +19,76 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
+  /* 1. SIDEBAR BACKGROUND TETAP HITAM */
+    [data-testid="stSidebar"] {
+        background-color: #000000 !important;
+    }
+
+    /* 2. FIX: TULISAN LABEL (PRIORITY FILTER, DLL) JADI PUTIH */
+    /* Menargetkan semua jenis teks label dan markdown di sidebar */
+    [data-testid="stSidebar"] label, 
+    [data-testid="stSidebar"] .stMarkdown p, 
+    [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3, [data-testid="stSidebar"] h4,
+    [data-testid="stSidebar"] .stWidgetLabel p {
+        color: white !important;
+        font-weight: bold !important;
+    }
+
+    /* 3. BOX FILTER (DATE & MULTISELECT) TETAP HITAM */
+    [data-testid="stSidebar"] div[data-baseweb="select"] > div, 
+    [data-testid="stSidebar"] div[data-baseweb="input"] > div {
+        background-color: #000000 !important;
+        border: 1px solid #444444 !important;
+    }
+
+    /* 4. TEKS DI DALAM BOX JADI PUTIH */
+    [data-testid="stSidebar"] input, 
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] div[aria-live="polite"] {
+        color: white !important;
+        -webkit-text-fill-color: white !important;
+    }
+    
+    
+
+[data-testid="stSidebar"] .stCheckbox p {
+    color: white !important;
+}
+
+[data-testid="stSidebar"] label p {
+    color: white !important;
+}
+
+[data-testid="stSidebar"] h3, [data-testid="stSidebar"] h2 {
+    color: white !important;
+}
+            
+    /* --- 1. AREA UTAMA (BACKGROUND PUTIH, FONT HITAM) --- */
+    .stApp {
+       background-color: #ffffff !important;
+
+
+    /* 2. SIDEBAR TOTAL FIX */
+    [data-testid="stSidebar"] {
+        background-color: #000000 !important;
+    }
+
+    [data-testid="stSidebar"] .stMarkdown p, 
+    [data-testid="stSidebar"] label, 
+    [data-testid="stSidebar"] span, 
+    [data-testid="stSidebar"] h1, 
+    [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3,
+    [data-testid="stSidebar"] .stWidgetLabel p {
+        color: #ffffff !important;
+    }     
     .main-header {
-        font-size: 2.5rem;
-        color: #1f77b4;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #000000 !important; /* Diubah jadi Hitam */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
     }
     .sub-header {
         font-size: 1.8rem;
@@ -62,33 +126,50 @@ st.markdown("""
         width: 100%;
         transition: all 0.3s ease;
     }
+    
+    * Icon panah & silang jadi putih */
+    [data-testid="stSidebar"] svg {
+        fill: white !important;
+    }
+            
     .stButton > button:hover {
         transform: translateY(-2px);
         box-shadow: 0 6px 12px rgba(0,0,0,0.15);
     }
     .alert-box {
-        background-color: #fff3cd;
+       background-color: #fff3cd; /* Warna latar kuning muda */
         border: 1px solid #ffeaa7;
         border-left: 5px solid #ffc107;
         padding: 1rem;
         border-radius: 5px;
         margin-bottom: 1rem;
+        
+        color: #1a1a1a !important; 
+        line-height: 1.5;
+            
     }
     .success-box {
-        background-color: #d4edda;
-        border: 1px solid #c3e6cb;
-        border-left: 5px solid #28a745;
-        padding: 1rem;
-        border-radius: 5px;
-        margin-bottom: 1rem;
+       background-color: #d4edda !important; 
+        border: 1px solid #c3e6cb !important;
+        border-left: 5px solid #28a745 !important;
+        padding: 1rem !important;
+        border-radius: 5px !important;
+        margin-bottom: 1rem !important;
+        
+        color: #000000 !important;
     }
     .warning-box {
-        background-color: #f8d7da;
+        background-color: #f8d7da; 
         border: 1px solid #f5c6cb;
-        border-left: 5px solid #dc3545;
+        border-left: 5px solid #dc3545; /* Garis merah tegas di kiri */
         padding: 1rem;
         border-radius: 5px;
         margin-bottom: 1rem;
+        
+        /* Memaksa warna teks menjadi hitam gelap */
+        color: #1a1a1a !important;
+        
+        
     }
 </style>
 """, unsafe_allow_html=True)
@@ -314,11 +395,12 @@ def create_visualizations(data):
     warehouse_status = warehouse['Stock_Status'].value_counts().reset_index()
     warehouse_status.columns = ['Stock_Status', 'Count']
     
-    color_map = {'Critical': 'red', 'Low': 'orange', 'Normal': 'green', 'Excess': 'blue'}
+    color_map = {'Critical': '#D32F2F', 'Low': '#F57C00', 'Normal': '#388E3C', 'Excess': '#1976D2'}
     fig4 = px.bar(warehouse_status, x='Stock_Status', y='Count',
                   title='Warehouse Inventory Status',
                   color='Stock_Status',
                   color_discrete_map=color_map)
+    
     visualizations['warehouse_status'] = fig4
     
     # 5. Vehicle Fleet Efficiency
@@ -426,7 +508,7 @@ def main():
     st.markdown("""
 
     <div style="text-align: center; margin-bottom: 2rem;">
-    <i>Predictive Analytics • Dynamic Optimization • Cost Intelligence</i>
+    <i> by Track.in Logistics  <i>
     </div>
     """, unsafe_allow_html=True)
     
@@ -541,6 +623,50 @@ def main():
     ])
     
     with tab1:
+        st.markdown('<div class="sub-header">🤖 AI Executive Insight</div>', unsafe_allow_html=True)
+        
+        df_active = data['merged_filtered']
+        
+        if df_active is not None and len(df_active) > 0:
+            try:
+                # --- PROSES VALIDASI KOLOM (AGAR TIDAK ERROR) ---
+                # Cek On_Time (bisa kolom 'On_Time' atau 'Delivery_Status')
+                on_time_col = 'On_Time' if 'On_Time' in df_active.columns else None
+                
+                # Cek Carrier
+                carrier_col = 'Carrier' if 'Carrier' in df_active.columns else None
+                
+                # Cek Revenue (bisa 'Revenue' atau 'Total_Cost')
+                rev_col = 'Revenue' if 'Revenue' in df_active.columns else ('Total_Cost' if 'Total_Cost' in df_active.columns else None)
+
+                # --- HITUNG DATA ---
+                insight_parts = []
+                
+                if on_time_col:
+                    avg_on_time = df_active[on_time_col].mean() * 100
+                    insight_parts.append(f"📈 **Efficiency:** Average on-time delivery rate is **{avg_on_time:.1f}%**.")
+                
+                if carrier_col:
+                    best_carrier = df_active[carrier_col].value_counts().idxmax()
+                    insight_parts.append(f"🏆 **Top Carrier:** **{best_carrier}** is the most utilized carrier in this segment.")
+                
+                if rev_col:
+                    total_val = df_active[rev_col].sum()
+                    label = "Revenue" if rev_col == 'Revenue' else "Total Cost"
+                    insight_parts.append(f"💰 **Financials:** {label} for current selection is **₹{total_val:,.0f}**.")
+
+                # --- TAMPILKAN HASIL ---
+                if insight_parts:
+                    # Gabungkan semua hasil analisis
+                    full_insight = "\n\n".join([f"* {p}" for p in insight_parts])
+                    st.info(f"**AI Analysis Based on Your Filters:**\n\n{full_insight}\n\n* 💡 **Recommendation:** Review performance trends for higher-volume routes to ensure consistency.")
+                else:
+                    st.warning("Could not find relevant columns (On_Time, Carrier, or Revenue) for AI Analysis.")
+
+            except Exception as e:
+                st.error(f"Error in AI calculation: {e}")
+        else:
+            st.warning("⚠️ **No data available for the selected filters.** Please adjust your sidebar settings.")
         if show_kpis:
             st.markdown('<div class="sub-header">📊 Key Performance Indicators</div>', unsafe_allow_html=True)
             create_kpi_metrics(data)
@@ -577,7 +703,28 @@ def main():
     with tab2:
         st.markdown('<div class="sub-header">📈 Detailed Performance Analysis</div>', unsafe_allow_html=True)
         
-        # Carrier comparison table
+        # ADDED: AI CARRIER PREDICTOR 
+        st.markdown("#### 🤖 AI Carrier Recommendation")
+        
+        # Logika AI: Weighted Scoring (60% On-Time, 40% Rating)
+        # Menggunakan data dari filtered_data agar sinkron dengan pilihan user di sidebar
+        ai_perf = filtered_data.groupby('Carrier').agg({
+            'On_Time': 'mean',
+            'Rating': 'mean'
+        })
+        ai_perf['AI_Score'] = (ai_perf['On_Time'] * 0.6) + (ai_perf['Rating'] / 5 * 0.4)
+        best_carrier = ai_perf['AI_Score'].idxmax()
+        score_val = ai_perf['AI_Score'].max() * 100
+
+        col_ai1, col_ai2 = st.columns([2, 1])
+        with col_ai1:
+            st.info(f"**AI Prediction:** Based on historical data, **{best_carrier}** is the most reliable carrier for your current selection with a reliability score of **{score_val:.1f}%**.")
+        with col_ai2:
+            st.metric("Top Recommended", best_carrier, f"{score_val:.1f}% Score")
+        st.markdown("---")
+        # END OF AI ADDITION 
+
+        # Carrier comparison table 
         st.markdown("#### 🚚 Carrier Performance Comparison")
         carrier_stats = filtered_data.groupby('Carrier').agg({
             'On_Time': 'mean',
@@ -586,14 +733,13 @@ def main():
             'Order_ID': 'count'
         }).rename(columns={'Order_ID': 'Order_Count'}).round(3)
         
-        # Format percentages
         carrier_stats['On_Time'] = carrier_stats['On_Time'].apply(lambda x: f"{x:.1%}")
         carrier_stats['Rating'] = carrier_stats['Rating'].apply(lambda x: f"{x:.1f}/5")
         carrier_stats['Total_Cost'] = carrier_stats['Total_Cost'].apply(lambda x: f"₹{x:,.0f}")
         
         st.dataframe(carrier_stats, width='stretch')
         
-        # Priority analysis
+        # Priority analysis 
         st.markdown("#### 🎯 Priority Level Analysis")
         priority_analysis = filtered_data.groupby('Priority').agg({
             'Delivery_Delay_Days': ['mean', 'max', 'min'],
@@ -603,7 +749,7 @@ def main():
         
         st.dataframe(priority_analysis, width='stretch')
         
-        # Route analysis
+        # Route analysis 
         st.markdown("#### 🗺️ Route Performance")
         route_analysis = filtered_data.groupby('Route').agg({
             'Delivery_Delay_Days': 'mean',
@@ -617,11 +763,27 @@ def main():
     with tab3:
         st.markdown('<div class="sub-header">💰 Cost Analysis & Optimization</div>', unsafe_allow_html=True)
         
-        # Cost breakdown visualization
+        # Cost breakdown visualization 
         viz = create_visualizations(data)
         st.plotly_chart(viz['cost_breakdown'], width='stretch')
         
-        # Cost optimization opportunities
+        # ADDED: AI COST AUDITOR 
+        st.markdown("#### 🔍 AI Cost Audit")
+        
+        # Deteksi Anomali: Biaya per KM > 1.5x Standar Deviasi dari Rata-rata
+        avg_cost = filtered_data['Cost_per_KM'].mean()
+        std_cost = filtered_data['Cost_per_KM'].std()
+        anomalies = filtered_data[filtered_data['Cost_per_KM'] > (avg_cost + 1.5 * std_cost)]
+        
+        if not anomalies.empty:
+            st.warning(f"**AI Auditor Alert:** Detected **{len(anomalies)} transactions** with unusually high costs per KM. Potential causes: Inefficient routing or high fuel surcharges.")
+            with st.expander("View Anomaly Details"):
+                st.write(anomalies[['Order_ID', 'Carrier', 'Route', 'Cost_per_KM', 'Total_Cost']])
+        else:
+            st.success("**AI Auditor:** No significant cost anomalies detected in current filters.")
+        # END OF AI ADDITION 
+
+        # Cost optimization opportunities 
         st.markdown("#### 💡 Cost Optimization Opportunities")
         
         opportunities = [
@@ -636,7 +798,7 @@ def main():
         for opp in opportunities:
             st.markdown(f"- {opp}")
         
-        # Detailed cost analysis
+        # Detailed cost analysis 
         st.markdown("#### 📋 Detailed Cost Analysis")
         cost_details = filtered_data[['Order_ID', 'Priority', 'Carrier', 'Route', 
                                      'Total_Cost', 'Fuel_Cost', 'Labor_Cost', 
@@ -646,31 +808,50 @@ def main():
     with tab4:
         st.markdown('<div class="sub-header">📦 Warehouse & Inventory Management</div>', unsafe_allow_html=True)
         
+        # ADDED: AI INVENTORY ADVISOR 
+        st.markdown("#### 🤖 AI Inventory Advisor")
+        
+        low_stock = data['warehouse'][data['warehouse']['Stock_Status'].isin(['Critical', 'Low'])]
+        excess_stock = data['warehouse'][data['warehouse']['Stock_Status'] == 'Excess']
+        
+        col_ai1, col_ai2 = st.columns([2, 1])
+        with col_ai1:
+            if not low_stock.empty and not excess_stock.empty:
+                can_redistribute = set(low_stock['Product_Category']) & set(excess_stock['Product_Category'])
+                if can_redistribute:
+                    category = list(can_redistribute)[0]
+                    st.success(f"**AI Optimization:** Recommended internal transfer for **{category}** from surplus warehouses to critical ones to save procurement costs.")
+                else:
+                    st.info("**AI Insight:** Stock is uniquely distributed. Suggest focusing on new procurement for 'Critical' status items.")
+            else:
+                st.info("**AI Status:** Stock monitoring is normal. No urgent redistribution required between warehouses.")
+        
+        with col_ai2:
+            risk_level = (len(low_stock) / len(data['warehouse'])) * 100
+            st.metric("Inventory Risk Level", f"{risk_level:.1f}%", delta="Normal", delta_color="inverse")
+        st.markdown("---")
+
         # Warehouse summary
         warehouse_summary = data['warehouse'].groupby('Location').agg({
             'Current_Stock_Units': 'sum',
             'Storage_Cost_per_Unit': 'mean',
             'Product_Category': lambda x: len(x.unique())
         }).rename(columns={'Product_Category': 'Unique_Categories'})
-        
         st.dataframe(warehouse_summary, width='stretch')
         
-        # Stock recommendations
         st.markdown("#### 📊 Stock Recommendations")
-        
         critical_items = data['warehouse'][data['warehouse']['Stock_Status'].isin(['Critical', 'Low'])]
         if not critical_items.empty:
             st.markdown("**Items needing immediate attention:**")
             for _, row in critical_items.iterrows():
                 st.markdown(f"- **{row['Product_Category']}** at {row['Location']}: {row['Current_Stock_Units']} units (Reorder: {row['Reorder_Level']})")
         
-        # Excess stock
         excess_items = data['warehouse'][data['warehouse']['Stock_Status'] == 'Excess']
         if not excess_items.empty:
             st.markdown("**Excess stock that can be redistributed:**")
             for _, row in excess_items.head(5).iterrows():
                 st.markdown(f"- **{row['Product_Category']}** at {row['Location']}: {row['Current_Stock_Units']} units")
-    
+
     with tab5:
         st.markdown('<div class="sub-header">🤖 AI-Powered Strategic Decision Engine</div>', unsafe_allow_html=True)
         
@@ -771,7 +952,6 @@ def main():
 
         # Execution Button
         if st.button("🚀 Execute AI-Driven Strategy"):
-            st.balloons()
             st.success("Optimization commands for routing and procurement have been dispatched to the operational team.")
     
     # Footer
@@ -780,7 +960,7 @@ def main():
     <div style="text-align: center; color: #666; font-size: 0.9rem; padding: 1rem;">
     <strong>Track.in Logistics AI Optimization Dashboard</strong> | 
     Data Updated: {date}<br>
-    © 2026 Track.in Logistics | Internal Use Only
+    © 2026 Track.in Logistics 
     </div>
     """.format(date=datetime.now().strftime("%Y-%m-%d")), unsafe_allow_html=True)
 
