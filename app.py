@@ -16,160 +16,142 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for better styling
+# ================== CUSTOM CSS ==================
 st.markdown("""
 <style>
-  /* 1. SIDEBAR BACKGROUND TETAP HITAM */
-    [data-testid="stSidebar"] {
-        background-color: #000000 !important;
-    }
-
-    /* 2. FIX: TULISAN LABEL (PRIORITY FILTER, DLL) JADI PUTIH */
-    /* Menargetkan semua jenis teks label dan markdown di sidebar */
-    [data-testid="stSidebar"] label, 
-    [data-testid="stSidebar"] .stMarkdown p, 
-    [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, 
-    [data-testid="stSidebar"] h3, [data-testid="stSidebar"] h4,
-    [data-testid="stSidebar"] .stWidgetLabel p {
-        color: white !important;
-        font-weight: bold !important;
-    }
-
-    /* 3. BOX FILTER (DATE & MULTISELECT) TETAP HITAM */
-    [data-testid="stSidebar"] div[data-baseweb="select"] > div, 
-    [data-testid="stSidebar"] div[data-baseweb="input"] > div {
-        background-color: #000000 !important;
-        border: 1px solid #444444 !important;
-    }
-
-    /* 4. TEKS DI DALAM BOX JADI PUTIH */
-    [data-testid="stSidebar"] input, 
-    [data-testid="stSidebar"] span,
-    [data-testid="stSidebar"] div[aria-live="polite"] {
-        color: white !important;
-        -webkit-text-fill-color: white !important;
-    }
-    
-    
-
-[data-testid="stSidebar"] .stCheckbox p {
-    color: white !important;
-}
-
-[data-testid="stSidebar"] label p {
-    color: white !important;
-}
-
-[data-testid="stSidebar"] h3, [data-testid="stSidebar"] h2 {
-    color: white !important;
-}
-            
-    /* --- 1. AREA UTAMA (BACKGROUND PUTIH, FONT HITAM) --- */
+    /* ================== LIGHT MODE UTAMA ================== */
     .stApp {
-       background-color: #ffffff !important;
+        background-color: #ffffff !important;
+    }
 
-
-    /* 2. SIDEBAR TOTAL FIX */
+    /* ================== SIDEBAR NAVY ================== */
     [data-testid="stSidebar"] {
-        background-color: #000000 !important;
+        background-color: #0A2540 !important;
+        color: white !important;
     }
 
-    [data-testid="stSidebar"] .stMarkdown p, 
-    [data-testid="stSidebar"] label, 
-    [data-testid="stSidebar"] span, 
-    [data-testid="stSidebar"] h1, 
-    [data-testid="stSidebar"] h2, 
+    /* SEMUA TEKS DI SIDEBAR JADI PUTIH */
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] .stMarkdown p,
+    [data-testid="stSidebar"] h1,
+    [data-testid="stSidebar"] h2,
     [data-testid="stSidebar"] h3,
-    [data-testid="stSidebar"] .stWidgetLabel p {
+    [data-testid="stSidebar"] .stWidgetLabel,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] .stCheckbox label p,
+    [data-testid="stSidebar"] .stMarkdown h3,
+    [data-testid="stSidebar"] .stMarkdown h4 {
         color: #ffffff !important;
-    }     
-    .main-header {
-    font-size: 2.5rem;
-    color: #000000 !important; /* Diubah jadi Hitam */
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 2rem;
+        font-weight: 500 !important;
     }
-    .sub-header {
-        font-size: 1.8rem;
-        color: #2c3e50;
-        font-weight: 600;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        border-bottom: 2px solid #1f77b4;
-        padding-bottom: 0.5rem;
+
+    /* Khusus Analysis Options */
+    [data-testid="stSidebar"] .stCheckbox {
+        color: white !important;
     }
-    .metric-card {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 1.5rem;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        margin-bottom: 1rem;
+
+    [data-testid="stSidebar"] .stCheckbox label {
+        color: white !important;
     }
-    .metric-value {
-        font-size: 2rem;
-        font-weight: bold;
+
+    /* Selectbox & Input */
+    [data-testid="stSidebar"] div[data-baseweb="select"] > div,
+    [data-testid="stSidebar"] div[data-baseweb="input"] > div {
+        background-color: #1C3A5E !important;
+        border: 1px solid #2A5A8C !important;
+        color: white !important;
     }
-    .metric-label {
-        font-size: 1rem;
-        opacity: 0.9;
-    }
-    .stButton > button {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        border: none;
-        padding: 0.75rem 1.5rem;
-        border-radius: 5px;
-        font-weight: bold;
-        width: 100%;
-        transition: all 0.3s ease;
-    }
-    
-    * Icon panah & silang jadi putih */
+
+    /* Icon */
     [data-testid="stSidebar"] svg {
         fill: white !important;
     }
             
+    /* Date Range Input Text */
+    [data-testid="stSidebar"] [data-testid="stDateInput"] input,
+    [data-testid="stSidebar"] [data-testid="stDateInput"] div,
+    [data-testid="stSidebar"] [data-testid="stDateInput"] span,
+    [data-testid="stSidebar"] [data-testid="stDateInput"] p {
+        color: #ffffff !important;
+    }
+
+    /* ================== HEADER & TEXT ================== */
+    .main-header {
+        font-size: 2.6rem;
+        color: #0A2540 !important;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-header {
+        font-size: 1.75rem;
+        color: #0A2540;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        border-bottom: 3px solid #1E88E5;
+        padding-bottom: 0.5rem;
+    }
+
+    /* ================== METRIC CARDS ================== */
+    .metric-card {
+        background: linear-gradient(135deg, #1E88E5, #0A2540);
+        color: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        margin-bottom: 1rem;
+    }
+
+    /* ================== ALERT BOXES ================== */
+    .alert-box {
+        background-color: #FFF3CD;
+        border-left: 5px solid #FFC107;
+        color: #1a1a1a !important;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+    .success-box {
+        background-color: #D4EDDA;
+        border-left: 5px solid #28A745;
+        color: #1a1a1a !important;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+    .warning-box {
+        background-color: #F8D7DA;
+        border-left: 5px solid #DC3545;
+        color: #1a1a1a !important;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+    /* ================== TABEL & DATAFRAME ================== */
+    .stDataFrame, .stTable {
+        background-color: white !important;
+    }
+
+    /* Pastikan teks di tabel hitam */
+    .stDataFrame td, .stDataFrame th {
+        color: #1a1a1a !important;
+    }
+
+    /* ================== BUTTON ================== */
+    .stButton > button {
+        background: linear-gradient(135deg, #1E88E5, #0A2540);
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        padding: 0.75rem 1.5rem;
+    }
+
     .stButton > button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-    }
-    .alert-box {
-       background-color: #fff3cd; /* Warna latar kuning muda */
-        border: 1px solid #ffeaa7;
-        border-left: 5px solid #ffc107;
-        padding: 1rem;
-        border-radius: 5px;
-        margin-bottom: 1rem;
-        
-        color: #1a1a1a !important; 
-        line-height: 1.5;
-            
-    }
-    .success-box {
-       background-color: #d4edda !important; 
-        border: 1px solid #c3e6cb !important;
-        border-left: 5px solid #28a745 !important;
-        padding: 1rem !important;
-        border-radius: 5px !important;
-        margin-bottom: 1rem !important;
-        
-        color: #000000 !important;
-    }
-    .warning-box {
-        background-color: #f8d7da; 
-        border: 1px solid #f5c6cb;
-        border-left: 5px solid #dc3545; /* Garis merah tegas di kiri */
-        padding: 1rem;
-        border-radius: 5px;
-        margin-bottom: 1rem;
-        
-        /* Memaksa warna teks menjadi hitam gelap */
-        color: #1a1a1a !important;
-        
-        
+        box-shadow: 0 6px 12px rgba(30, 136, 229, 0.3);
     }
 </style>
 """, unsafe_allow_html=True)
