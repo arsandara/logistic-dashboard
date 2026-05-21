@@ -78,7 +78,7 @@ def load_data():
 df, warehouse = load_data()
 
 # ====================== MAIN APP ======================
-st.markdown('<h1 class="main-header">🚚 PT. Remenia Satori Tepas</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align:center;">🚚 PT. Remenia Satori Tepas</h1>', unsafe_allow_html=True)
 st.markdown('<p style="text-align:center; font-size:1.3rem;">AI-Powered Logistics Dashboard</p>', unsafe_allow_html=True)
 
 tab1, tab2 = st.tabs(["📦 Pengiriman & Rute", "📊 Stok Gudang"])
