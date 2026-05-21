@@ -264,7 +264,7 @@ AI Logistics System"""
                 filename="stock_report.csv"
             )
             if success:
-                st.success("✅ Laporan Stok berhasil dikirim ke Pinkan & Arsanda")
+                st.success("✅ Laporan Stok berhasil dikirim ke Tim Operasional")
             else:
                 st.error(msg)
 
