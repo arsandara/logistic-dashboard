@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo  NexGen Logistics Dashboard
+echo  PT. Remenia Satori Tepas
 echo ========================================
 echo.
 
