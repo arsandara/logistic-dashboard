@@ -46,7 +46,7 @@ def send_email(subject, body, attachment_df=None, filename="problem_orders.csv")
         server.login(sender_email, sender_password)
         server.sendmail(sender_email, receiver_emails, msg.as_string())
         server.quit()
-        return True, "✅ Email berhasil dikirim ke Pinkan & Arsanda"
+        return True, "✅ Email berhasil dikirim ke Tim Operasional"
     except Exception as e:
         return False, f"❌ Gagal mengirim email: {str(e)}"
 
