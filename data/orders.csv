@@ -1,201 +1,201 @@
 Order_ID,Order_Date,Customer_Segment,Priority,Product_Category,Order_Value_INR,Origin,Destination,Special_Handling
-ORD000001,2025-10-09,Individual,Express,Industrial,238.73,Kolkata,Hyderabad,None
-ORD000002,2025-09-29,SMB,Express,Industrial,17.01,Hyderabad,Kolkata,None
-ORD000003,2025-09-15,SMB,Economy,Industrial,3024.95,Mumbai,Pune,None
-ORD000004,2025-10-13,Individual,Economy,Fashion,56.74,Hyderabad,Ahmedabad,None
-ORD000005,2025-09-08,SMB,Standard,Fashion,19148.65,Chennai,Mumbai,None
-ORD000006,2025-09-21,Individual,Express,Food & Beverage,158.22,Chennai,Dubai,None
-ORD000007,2025-10-09,Individual,Standard,Electronics,736.82,Pune,Bangalore,None
-ORD000008,2025-09-19,Enterprise,Standard,Industrial,4771.54,Chennai,Kolkata,None
-ORD000009,2025-09-23,SMB,Express,Books,3711.35,Delhi,Hong Kong,None
-ORD000010,2025-09-11,SMB,Standard,Electronics,7936.32,Hyderabad,Mumbai,Hazmat
-ORD000011,2025-09-11,Enterprise,Standard,Books,41.07,Delhi,Bangkok,None
-ORD000012,2025-09-24,Enterprise,Standard,Electronics,73.42,Mumbai,Hong Kong,None
-ORD000013,2025-10-06,SMB,Standard,Food & Beverage,566.23,Hyderabad,Bangalore,None
-ORD000014,2025-10-10,SMB,Express,Industrial,1421.72,Delhi,Bangalore,None
-ORD000015,2025-09-24,Enterprise,Standard,Industrial,396.69,Kolkata,Delhi,Hazmat
-ORD000016,2025-09-03,Enterprise,Standard,Healthcare,34.57,Delhi,Mumbai,Fragile
-ORD000017,2025-09-22,Individual,Standard,Books,849.69,Hyderabad,Singapore,None
-ORD000018,2025-09-02,Enterprise,Economy,Electronics,301.46,Mumbai,Chennai,Fragile
-ORD000019,2025-09-24,Enterprise,Standard,Electronics,296.08,Ahmedabad,Bangalore,Hazmat
-ORD000020,2025-10-14,SMB,Express,Fashion,13.24,Kolkata,Pune,Temperature_Controlled
-ORD000021,2025-09-30,Individual,Express,Healthcare,1334.39,Mumbai,Singapore,Fragile
-ORD000022,2025-10-08,Enterprise,Standard,Home Goods,501.6,Bangalore,Dubai,Fragile
-ORD000023,2025-09-02,SMB,Express,Home Goods,5959.53,Ahmedabad,Dubai,None
-ORD000024,2025-09-21,Individual,Standard,Fashion,360.77,Bangalore,Kolkata,None
-ORD000025,2025-10-03,Enterprise,Economy,Fashion,943.42,Mumbai,Hyderabad,None
-ORD000026,2025-09-12,Individual,Standard,Fashion,1404.91,Bangalore,Delhi,None
-ORD000027,2025-09-22,SMB,Standard,Books,29.39,Bangalore,Bangkok,None
-ORD000028,2025-10-14,SMB,Standard,Books,20435.93,Kolkata,Dubai,None
-ORD000029,2025-09-25,SMB,Standard,Food & Beverage,211.41,Chennai,Singapore,None
-ORD000030,2025-10-19,SMB,Standard,Food & Beverage,847.13,Delhi,Chennai,Fragile
-ORD000031,2025-09-27,Enterprise,Economy,Fashion,1054.55,Mumbai,Bangkok,Temperature_Controlled
-ORD000032,2025-10-12,Individual,Standard,Healthcare,118.85,Chennai,Dubai,None
-ORD000033,2025-09-28,SMB,Economy,Electronics,6441.2,Delhi,Chennai,None
-ORD000034,2025-09-16,Enterprise,Economy,Books,601.2,Mumbai,Dubai,Temperature_Controlled
-ORD000035,2025-09-15,Enterprise,Express,Healthcare,292.89,Pune,Delhi,None
-ORD000036,2025-10-17,SMB,Express,Industrial,496.59,Chennai,Hong Kong,Fragile
-ORD000037,2025-10-14,SMB,Express,Books,1269.5,Chennai,Dubai,None
-ORD000038,2025-09-03,Enterprise,Express,Books,410.02,Hyderabad,Singapore,None
-ORD000039,2025-10-07,SMB,Express,Food & Beverage,1514.58,Bangalore,Dubai,Hazmat
-ORD000040,2025-09-07,Enterprise,Standard,Electronics,32.22,Kolkata,Hyderabad,None
-ORD000041,2025-09-21,SMB,Express,Electronics,131.37,Bangalore,Bangkok,None
-ORD000042,2025-09-09,Enterprise,Standard,Home Goods,16.31,Mumbai,Bangkok,Fragile
-ORD000043,2025-10-09,SMB,Economy,Home Goods,8066.8,Delhi,Bangalore,None
-ORD000044,2025-09-18,SMB,Express,Home Goods,7910.83,Bangalore,Singapore,None
-ORD000045,2025-09-04,Individual,Economy,Home Goods,1032.69,Kolkata,Pune,Hazmat
-ORD000046,2025-09-25,Enterprise,Standard,Industrial,88.33,Mumbai,Singapore,None
-ORD000047,2025-09-14,SMB,Express,Industrial,14542.31,Mumbai,Bangkok,Temperature_Controlled
-ORD000048,2025-10-20,Enterprise,Standard,Books,162.94,Delhi,Hyderabad,None
-ORD000049,2025-09-09,Individual,Standard,Fashion,293.0,Delhi,Hong Kong,None
-ORD000050,2025-09-26,Individual,Economy,Food & Beverage,512.5,Kolkata,Delhi,None
-ORD000051,2025-09-02,Enterprise,Economy,Food & Beverage,794.15,Delhi,Pune,None
-ORD000052,2025-09-20,SMB,Economy,Home Goods,1059.66,Chennai,Hyderabad,Temperature_Controlled
-ORD000053,2025-09-28,Individual,Standard,Books,1125.45,Bangalore,Hyderabad,Temperature_Controlled
-ORD000054,2025-10-17,SMB,Express,Healthcare,324.8,Bangalore,Mumbai,None
-ORD000055,2025-09-07,SMB,Economy,Fashion,1099.0,Hyderabad,Delhi,Fragile
-ORD000056,2025-10-14,Enterprise,Economy,Books,303.74,Delhi,Singapore,None
-ORD000057,2025-09-08,Enterprise,Economy,Fashion,961.94,Kolkata,Bangalore,None
-ORD000058,2025-10-17,Individual,Standard,Fashion,850.6,Delhi,Hong Kong,None
-ORD000059,2025-10-05,Individual,Standard,Fashion,1266.83,Delhi,Chennai,None
-ORD000060,2025-09-14,SMB,Economy,Books,1050.42,Pune,Singapore,None
-ORD000061,2025-09-17,SMB,Standard,Home Goods,207.75,Mumbai,Singapore,Fragile
-ORD000062,2025-10-06,SMB,Economy,Food & Beverage,802.77,Mumbai,Bangalore,None
-ORD000063,2025-10-20,Individual,Economy,Food & Beverage,1075.03,Kolkata,Singapore,None
-ORD000064,2025-10-10,Individual,Standard,Home Goods,58.17,Mumbai,Bangkok,None
-ORD000065,2025-09-04,Individual,Economy,Fashion,267.45,Hyderabad,Mumbai,None
-ORD000066,2025-09-02,Individual,Economy,Healthcare,1004.43,Delhi,Pune,Fragile
-ORD000067,2025-09-06,SMB,Express,Electronics,5239.28,Pune,Singapore,None
-ORD000068,2025-10-12,Enterprise,Economy,Books,1390.4,Kolkata,Bangalore,None
-ORD000069,2025-09-04,Enterprise,Standard,Electronics,5759.28,Chennai,Singapore,None
-ORD000070,2025-09-29,Individual,Economy,Home Goods,221.95,Pune,Mumbai,None
-ORD000071,2025-09-18,SMB,Standard,Healthcare,587.15,Delhi,Bangkok,None
-ORD000072,2025-09-26,Enterprise,Economy,Books,1351.0,Pune,Bangkok,None
-ORD000073,2025-10-14,Enterprise,Standard,Home Goods,12.31,Mumbai,Dubai,Fragile
-ORD000074,2025-10-04,SMB,Express,Fashion,3890.16,Bangalore,Bangkok,Temperature_Controlled
-ORD000075,2025-09-10,Enterprise,Economy,Food & Beverage,24.75,Delhi,Dubai,None
-ORD000076,2025-10-06,Enterprise,Express,Electronics,1799.76,Bangalore,Hyderabad,None
-ORD000077,2025-09-14,SMB,Standard,Industrial,1130.31,Mumbai,Hong Kong,None
-ORD000078,2025-10-01,SMB,Economy,Industrial,12.07,Hyderabad,Chennai,None
-ORD000079,2025-10-18,SMB,Economy,Healthcare,13.02,Hyderabad,Bangkok,None
-ORD000080,2025-09-15,Enterprise,Standard,Fashion,3458.96,Pune,Hyderabad,None
-ORD000081,2025-09-08,Individual,Standard,Electronics,2495.1,Mumbai,Ahmedabad,None
-ORD000082,2025-09-14,Enterprise,Standard,Fashion,107.63,Chennai,Hyderabad,None
-ORD000083,2025-09-23,SMB,Standard,Electronics,107.47,Bangalore,Bangkok,None
-ORD000084,2025-10-10,Individual,Standard,Healthcare,870.36,Delhi,Hong Kong,None
-ORD000085,2025-09-21,SMB,Standard,Healthcare,395.79,Delhi,Dubai,None
-ORD000086,2025-09-16,Individual,Economy,Industrial,1961.75,Delhi,Chennai,None
-ORD000087,2025-10-15,SMB,Economy,Fashion,828.3,Chennai,Ahmedabad,None
-ORD000088,2025-09-18,SMB,Economy,Books,4335.3,Bangalore,Hong Kong,Fragile
-ORD000089,2025-10-17,Enterprise,Express,Industrial,1728.69,Bangalore,Hong Kong,None
-ORD000090,2025-09-24,SMB,Standard,Fashion,1189.35,Mumbai,Bangkok,Hazmat
-ORD000091,2025-09-26,Enterprise,Express,Industrial,237.89,Mumbai,Hyderabad,None
-ORD000092,2025-09-25,Enterprise,Standard,Books,213.15,Mumbai,Ahmedabad,Fragile
-ORD000093,2025-10-15,Individual,Standard,Food & Beverage,373.29,Ahmedabad,Delhi,None
-ORD000094,2025-10-11,SMB,Economy,Food & Beverage,6383.13,Mumbai,Kolkata,Fragile
-ORD000095,2025-09-29,Individual,Standard,Food & Beverage,219.33,Mumbai,Bangalore,Fragile
-ORD000096,2025-09-15,SMB,Express,Food & Beverage,596.33,Delhi,Ahmedabad,None
-ORD000097,2025-10-15,Individual,Express,Home Goods,13.91,Kolkata,Delhi,None
-ORD000098,2025-09-01,SMB,Economy,Electronics,1111.77,Ahmedabad,Bangkok,None
-ORD000099,2025-09-25,SMB,Standard,Home Goods,11917.91,Kolkata,Mumbai,None
-ORD000100,2025-09-07,SMB,Express,Home Goods,99.44,Chennai,Dubai,None
-ORD000101,2025-09-09,Enterprise,Express,Home Goods,47177.07,Bangalore,Mumbai,None
-ORD000102,2025-09-24,Individual,Economy,Food & Beverage,530.26,Mumbai,Singapore,None
-ORD000103,2025-09-01,Enterprise,Express,Books,8.5,Pune,Delhi,None
-ORD000104,2025-10-14,Enterprise,Economy,Healthcare,226.26,Kolkata,Singapore,Fragile
-ORD000105,2025-09-08,SMB,Economy,Healthcare,2968.04,Chennai,Bangalore,None
-ORD000106,2025-09-24,Enterprise,Express,Electronics,8094.79,Kolkata,Pune,Hazmat
-ORD000107,2025-09-11,Individual,Express,Food & Beverage,1184.59,Kolkata,Bangalore,None
-ORD000108,2025-09-17,Individual,Economy,Food & Beverage,4236.07,Chennai,Ahmedabad,None
-ORD000109,2025-09-08,Individual,Standard,Food & Beverage,68.95,Ahmedabad,Hong Kong,None
-ORD000110,2025-10-05,SMB,Standard,Industrial,145.42,Pune,Dubai,None
-ORD000111,2025-10-05,Enterprise,Economy,Fashion,32.49,Chennai,Delhi,Fragile
-ORD000112,2025-10-03,Individual,Economy,Industrial,162.78,Chennai,Hyderabad,None
-ORD000113,2025-09-05,SMB,Economy,Fashion,1265.06,Mumbai,Pune,Fragile
-ORD000114,2025-10-12,Individual,Economy,Food & Beverage,555.01,Chennai,Kolkata,None
-ORD000115,2025-10-09,Individual,Standard,Food & Beverage,1482.93,Mumbai,Kolkata,None
-ORD000116,2025-10-11,Individual,Express,Industrial,99.01,Bangalore,Kolkata,None
-ORD000117,2025-09-28,Enterprise,Economy,Industrial,108.5,Ahmedabad,Delhi,None
-ORD000118,2025-09-07,SMB,Standard,Fashion,548.35,Bangalore,Kolkata,None
-ORD000119,2025-09-09,Individual,Standard,Healthcare,163.37,Bangalore,Bangkok,None
-ORD000120,2025-09-08,SMB,Economy,Fashion,2843.45,Delhi,Mumbai,None
-ORD000121,2025-09-12,Enterprise,Express,Industrial,157.41,Mumbai,Pune,None
-ORD000122,2025-10-04,SMB,Standard,Books,191.89,Kolkata,Mumbai,None
-ORD000123,2025-10-03,Individual,Express,Industrial,756.16,Mumbai,Hong Kong,None
-ORD000124,2025-10-18,SMB,Standard,Books,224.99,Mumbai,Pune,None
-ORD000125,2025-09-23,SMB,Express,Electronics,63.28,Delhi,Mumbai,None
-ORD000126,2025-09-24,Enterprise,Express,Industrial,77.55,Kolkata,Pune,None
-ORD000127,2025-10-07,SMB,Express,Electronics,903.84,Kolkata,Hong Kong,None
-ORD000128,2025-10-05,Individual,Standard,Healthcare,52.56,Mumbai,Singapore,None
-ORD000129,2025-10-14,Enterprise,Economy,Fashion,3280.49,Bangalore,Bangkok,None
-ORD000130,2025-10-10,SMB,Standard,Books,143.22,Bangalore,Delhi,None
-ORD000131,2025-09-22,Individual,Economy,Fashion,1016.71,Chennai,Delhi,Temperature_Controlled
-ORD000132,2025-09-27,Individual,Standard,Electronics,156.71,Chennai,Kolkata,None
-ORD000133,2025-10-05,SMB,Standard,Books,102.22,Delhi,Bangkok,None
-ORD000134,2025-09-01,Individual,Economy,Fashion,583.56,Bangalore,Chennai,None
-ORD000135,2025-10-05,SMB,Standard,Industrial,1954.08,Bangalore,Kolkata,None
-ORD000136,2025-10-07,Enterprise,Economy,Food & Beverage,278.37,Hyderabad,Ahmedabad,None
-ORD000137,2025-10-17,Individual,Express,Electronics,365.69,Bangalore,Bangkok,None
-ORD000138,2025-09-14,Individual,Economy,Fashion,1354.42,Delhi,Mumbai,Temperature_Controlled
-ORD000139,2025-09-03,Individual,Express,Electronics,1423.38,Delhi,Pune,None
-ORD000140,2025-09-01,Individual,Economy,Home Goods,380.8,Bangalore,Chennai,None
-ORD000141,2025-09-05,SMB,Standard,Electronics,207.43,Kolkata,Bangkok,None
-ORD000142,2025-09-26,SMB,Economy,Books,456.68,Bangalore,Hong Kong,None
-ORD000143,2025-09-14,Individual,Express,Home Goods,302.97,Chennai,Ahmedabad,None
-ORD000144,2025-10-09,SMB,Standard,Books,645.14,Kolkata,Hong Kong,None
-ORD000145,2025-09-27,Individual,Economy,Food & Beverage,67.26,Bangalore,Delhi,None
-ORD000146,2025-09-09,Individual,Standard,Home Goods,611.41,Delhi,Bangalore,Temperature_Controlled
-ORD000147,2025-09-15,Individual,Standard,Industrial,137.35,Hyderabad,Chennai,None
-ORD000148,2025-09-15,SMB,Standard,Electronics,1570.0,Delhi,Mumbai,None
-ORD000149,2025-09-26,SMB,Standard,Fashion,147.13,Bangalore,Chennai,None
-ORD000150,2025-10-12,Enterprise,Standard,Healthcare,151.01,Ahmedabad,Dubai,None
-ORD000151,2025-09-13,SMB,Standard,Electronics,786.9,Mumbai,Ahmedabad,None
-ORD000152,2025-10-02,Enterprise,Economy,Electronics,412.12,Mumbai,Ahmedabad,None
-ORD000153,2025-10-09,SMB,Express,Food & Beverage,12270.8,Delhi,Bangkok,Fragile
-ORD000154,2025-10-19,SMB,Standard,Industrial,35.02,Pune,Chennai,Fragile
-ORD000155,2025-10-02,Enterprise,Economy,Healthcare,475.7,Mumbai,Bangalore,None
-ORD000156,2025-09-04,SMB,Economy,Home Goods,2196.18,Mumbai,Kolkata,Temperature_Controlled
-ORD000157,2025-09-30,Enterprise,Standard,Home Goods,169.45,Mumbai,Pune,None
-ORD000158,2025-10-07,Enterprise,Standard,Home Goods,102.94,Mumbai,Bangkok,None
-ORD000159,2025-09-23,Individual,Standard,Books,109.26,Mumbai,Bangkok,None
-ORD000160,2025-10-09,SMB,Express,Books,35.95,Bangalore,Chennai,Hazmat
-ORD000161,2025-10-15,Enterprise,Standard,Fashion,3055.07,Bangalore,Mumbai,None
-ORD000162,2025-09-15,SMB,Standard,Healthcare,246.06,Delhi,Singapore,None
-ORD000163,2025-10-13,Individual,Standard,Home Goods,206.02,Delhi,Hyderabad,None
-ORD000164,2025-09-29,Enterprise,Express,Books,16.67,Mumbai,Hyderabad,None
-ORD000165,2025-10-06,SMB,Economy,Fashion,46.97,Delhi,Bangkok,None
-ORD000166,2025-09-13,Enterprise,Economy,Industrial,3633.98,Bangalore,Kolkata,None
-ORD000167,2025-10-02,Enterprise,Standard,Fashion,635.66,Kolkata,Pune,None
-ORD000168,2025-09-07,SMB,Standard,Books,2320.99,Mumbai,Chennai,None
-ORD000169,2025-09-22,SMB,Standard,Food & Beverage,1919.82,Bangalore,Dubai,None
-ORD000170,2025-09-28,SMB,Economy,Food & Beverage,89.93,Delhi,Hyderabad,None
-ORD000171,2025-09-02,Individual,Standard,Home Goods,15440.85,Hyderabad,Bangalore,None
-ORD000172,2025-10-12,Individual,Express,Food & Beverage,7514.57,Chennai,Bangkok,None
-ORD000173,2025-10-15,SMB,Economy,Home Goods,173.18,Bangalore,Mumbai,None
-ORD000174,2025-09-06,SMB,Economy,Home Goods,1.91,Delhi,Hong Kong,None
-ORD000175,2025-09-28,Individual,Economy,Books,236.32,Pune,Hyderabad,None
-ORD000176,2025-09-28,Enterprise,Economy,Food & Beverage,576.77,Mumbai,Bangalore,Hazmat
-ORD000177,2025-10-14,SMB,Standard,Home Goods,172.16,Mumbai,Chennai,None
-ORD000178,2025-10-14,Enterprise,Standard,Healthcare,289.37,Delhi,Mumbai,None
-ORD000179,2025-09-20,Enterprise,Economy,Industrial,116.4,Mumbai,Dubai,None
-ORD000180,2025-09-30,Individual,Economy,Fashion,1607.53,Pune,Singapore,None
-ORD000181,2025-09-11,Individual,Express,Fashion,443.83,Kolkata,Delhi,None
-ORD000182,2025-09-28,SMB,Express,Books,1681.21,Delhi,Bangkok,None
-ORD000183,2025-09-25,SMB,Standard,Food & Beverage,2523.26,Bangalore,Singapore,None
-ORD000184,2025-10-09,Enterprise,Economy,Food & Beverage,15.46,Ahmedabad,Dubai,None
-ORD000185,2025-10-03,Enterprise,Economy,Home Goods,127.0,Hyderabad,Mumbai,Temperature_Controlled
-ORD000186,2025-09-01,Enterprise,Express,Electronics,158.22,Chennai,Hyderabad,Fragile
-ORD000187,2025-09-27,SMB,Standard,Home Goods,19092.65,Pune,Singapore,None
-ORD000188,2025-09-13,Individual,Standard,Industrial,504.47,Ahmedabad,Bangkok,None
-ORD000189,2025-10-11,SMB,Economy,Healthcare,1364.91,Kolkata,Delhi,Fragile
-ORD000190,2025-09-03,Enterprise,Economy,Fashion,24.02,Mumbai,Kolkata,None
-ORD000191,2025-10-09,Individual,Economy,Home Goods,500.11,Delhi,Ahmedabad,None
-ORD000192,2025-09-06,Individual,Standard,Electronics,1750.12,Hyderabad,Bangalore,Hazmat
-ORD000193,2025-09-08,SMB,Standard,Electronics,1469.9,Mumbai,Hyderabad,None
-ORD000194,2025-09-27,SMB,Standard,Home Goods,1027.72,Hyderabad,Singapore,None
-ORD000195,2025-09-09,SMB,Express,Books,411.37,Mumbai,Hong Kong,Hazmat
-ORD000196,2025-10-07,Enterprise,Economy,Fashion,442.46,Mumbai,Chennai,None
-ORD000197,2025-10-03,SMB,Economy,Books,31.82,Delhi,Kolkata,None
-ORD000198,2025-10-12,Individual,Economy,Healthcare,104.5,Mumbai,Dubai,None
-ORD000199,2025-10-14,Enterprise,Economy,Electronics,570.44,Pune,Ahmedabad,Fragile
-ORD000200,2025-09-24,Enterprise,Standard,Electronics,137.83,Hyderabad,Mumbai,Temperature_Controlled
+ORD000001,2026-01-01,Individual,Express,Oli Top1,238.73,Makassar,Jakarta,Hazmat
+ORD000002,2026-01-02,SMB,Express,Oli Top1,17.01,Jakarta,Surabaya,None
+ORD000003,2026-01-03,SMB,Economy,Oli Federal,3024.95,Surabaya,Balikpapan,Hazmat
+ORD000004,2026-01-04,Individual,Economy,Sparepart Motor,56.74,Jakarta,Medan,Fragile
+ORD000005,2026-01-05,SMB,Standard,Oli Top1,19148.65,Makassar,Surabaya,Hazmat
+ORD000006,2026-01-06,Individual,Express,Oli Aspira,158.22,Makassar,Manado,Temperature_Controlled
+ORD000007,2026-01-07,Individual,Standard,Sparepart Motor,736.82,Surabaya,Balikpapan,Fragile
+ORD000008,2026-01-08,Enterprise,Standard,Oli Top1,4771.54,Makassar,Jakarta,Hazmat
+ORD000009,2026-01-09,SMB,Express,Oli Federal,3711.35,Jakarta,Pontianak,None
+ORD000010,2026-01-10,SMB,Standard,Oli Top1,7936.32,Medan,Palembang,Hazmat
+ORD000011,2026-01-11,Enterprise,Standard,Sparepart Motor,41.07,Jakarta,Bandung,Fragile
+ORD000012,2026-01-12,Enterprise,Standard,Oli Aspira,73.42,Surabaya,Semarang,None
+ORD000013,2026-01-13,SMB,Standard,Oli Top1,566.23,Makassar,Balikpapan,Hazmat
+ORD000014,2026-01-14,SMB,Express,Sparepart Motor,1421.72,Jakarta,Manado,Fragile
+ORD000015,2026-01-15,Enterprise,Standard,Oli Federal,396.69,Surabaya,Medan,Hazmat
+ORD000016,2026-01-16,Enterprise,Standard,Oli Top1,34.57,Jakarta,Pontianak,Temperature_Controlled
+ORD000017,2026-01-17,Individual,Standard,Oli Aspira,849.69,Makassar,Palembang,None
+ORD000018,2026-01-18,Enterprise,Economy,Sparepart Motor,301.46,Surabaya,Bandung,Fragile
+ORD000019,2026-01-19,Enterprise,Standard,Oli Top1,296.08,Medan,Balikpapan,Hazmat
+ORD000020,2026-01-20,SMB,Express,Oli Federal,13.24,Surabaya,Semarang,Temperature_Controlled
+ORD000021,2026-01-21,Individual,Express,Oli Top1,1334.39,Jakarta,Manado,Hazmat
+ORD000022,2026-01-22,Enterprise,Standard,Sparepart Motor,501.6,Balikpapan,Pontianak,Fragile
+ORD000023,2026-01-23,SMB,Express,Oli Aspira,5959.53,Medan,Palembang,None
+ORD000024,2026-01-24,Individual,Standard,Oli Top1,360.77,Bandung,Surabaya,Hazmat
+ORD000025,2026-01-25,Enterprise,Economy,Oli Federal,943.42,Surabaya,Makassar,None
+ORD000026,2026-01-26,Individual,Standard,Sparepart Motor,1404.91,Balikpapan,Jakarta,Fragile
+ORD000027,2026-01-27,SMB,Standard,Oli Top1,29.39,Bandung,Medan,Hazmat
+ORD000028,2026-01-28,SMB,Standard,Oli Top1,20435.93,Surabaya,Pontianak,None
+ORD000029,2026-01-29,SMB,Standard,Oli Aspira,211.41,Makassar,Manado,Temperature_Controlled
+ORD000030,2026-01-30,SMB,Standard,Oli Federal,847.13,Jakarta,Balikpapan,Hazmat
+ORD000031,2026-01-31,Enterprise,Economy,Oli Top1,1054.55,Surabaya,Semarang,None
+ORD000032,2026-02-01,Individual,Standard,Sparepart Motor,118.85,Makassar,Pontianak,Fragile
+ORD000033,2026-02-02,SMB,Economy,Oli Top1,6441.2,Jakarta,Medan,Hazmat
+ORD000034,2026-02-03,Enterprise,Economy,Oli Federal,601.2,Surabaya,Palembang,Temperature_Controlled
+ORD000035,2026-02-04,Enterprise,Express,Oli Aspira,292.89,Balikpapan,Jakarta,None
+ORD000036,2026-02-05,SMB,Express,Oli Top1,496.59,Makassar,Bandung,Hazmat
+ORD000037,2026-02-06,SMB,Express,Sparepart Motor,1269.5,Makassar,Manado,Fragile
+ORD000038,2026-02-07,Enterprise,Express,Oli Top1,410.02,Medan,Pontianak,Hazmat
+ORD000039,2026-02-08,SMB,Express,Oli Federal,1514.58,Balikpapan,Palembang,None
+ORD000040,2026-02-09,Enterprise,Standard,Oli Top1,32.22,Surabaya,Makassar,Hazmat
+ORD000041,2026-02-10,SMB,Express,Sparepart Motor,131.37,Bandung,Medan,Fragile
+ORD000042,2026-02-11,Enterprise,Standard,Oli Aspira,16.31,Jakarta,Semarang,Temperature_Controlled
+ORD000043,2026-02-12,SMB,Economy,Oli Top1,8066.8,Surabaya,Balikpapan,Hazmat
+ORD000044,2026-02-13,SMB,Express,Oli Federal,7910.83,Balikpapan,Manado,None
+ORD000045,2026-02-14,Individual,Economy,Sparepart Motor,1032.69,Makassar,Pontianak,Fragile
+ORD000046,2026-02-15,Enterprise,Standard,Oli Top1,88.33,Jakarta,Palembang,Hazmat
+ORD000047,2026-02-16,SMB,Express,Oli Top1,14542.31,Surabaya,Medan,Temperature_Controlled
+ORD000048,2026-02-17,Enterprise,Standard,Oli Aspira,162.94,Jakarta,Makassar,None
+ORD000049,2026-02-18,Individual,Standard,Sparepart Motor,293.0,Bandung,Balikpapan,Fragile
+ORD000050,2026-02-19,Individual,Economy,Oli Federal,512.5,Surabaya,Jakarta,Hazmat
+ORD000051,2026-02-20,Enterprise,Economy,Oli Top1,794.15,Makassar,Semarang,None
+ORD000052,2026-02-21,SMB,Economy,Oli Top1,1059.66,Makassar,Medan,Hazmat
+ORD000053,2026-02-22,Individual,Standard,Oli Aspira,1125.45,Balikpapan,Palembang,Temperature_Controlled
+ORD000054,2026-02-23,SMB,Express,Oli Top1,324.8,Bandung,Surabaya,None
+ORD000055,2026-02-24,SMB,Economy,Sparepart Motor,1099.0,Medan,Jakarta,Fragile
+ORD000056,2026-02-25,Enterprise,Economy,Oli Federal,303.74,Jakarta,Pontianak,Hazmat
+ORD000057,2026-02-26,Enterprise,Economy,Oli Top1,961.94,Surabaya,Balikpapan,None
+ORD000058,2026-02-27,Individual,Standard,Oli Top1,850.6,Makassar,Manado,Hazmat
+ORD000059,2026-02-28,Individual,Standard,Sparepart Motor,1266.83,Jakarta,Medan,Fragile
+ORD000060,2026-03-01,SMB,Economy,Oli Aspira,1050.42,Surabaya,Pontianak,Temperature_Controlled
+ORD000061,2026-03-02,SMB,Standard,Oli Top1,207.75,Balikpapan,Palembang,Hazmat
+ORD000062,2026-03-03,SMB,Economy,Oli Federal,802.77,Medan,Jakarta,None
+ORD000063,2026-03-04,Individual,Economy,Oli Top1,1075.03,Surabaya,Makassar,Hazmat
+ORD000064,2026-03-05,Individual,Standard,Sparepart Motor,58.17,Jakarta,Semarang,Fragile
+ORD000065,2026-03-06,Individual,Economy,Oli Top1,267.45,Makassar,Bandung,None
+ORD000066,2026-03-07,Individual,Economy,Sparepart Motor,1004.43,Jakarta,Medan,Fragile
+ORD000067,2026-03-08,SMB,Express,Oli Top1,5239.28,Surabaya,Palembang,Hazmat
+ORD000068,2026-03-09,Enterprise,Economy,Oli Aspira,1390.4,Balikpapan,Manado,None
+ORD000069,2026-03-10,Enterprise,Standard,Oli Federal,5759.28,Makassar,Pontianak,Hazmat
+ORD000070,2026-03-11,Individual,Economy,Oli Top1,221.95,Medan,Jakarta,None
+ORD000071,2026-03-12,SMB,Standard,Sparepart Motor,587.15,Jakarta,Bandung,Fragile
+ORD000072,2026-03-13,Enterprise,Economy,Oli Top1,1351.0,Surabaya,Semarang,Hazmat
+ORD000073,2026-03-14,Enterprise,Standard,Oli Top1,12.31,Balikpapan,Pontianak,Temperature_Controlled
+ORD000074,2026-03-15,SMB,Express,Oli Federal,3890.16,Makassar,Medan,None
+ORD000075,2026-03-16,Enterprise,Economy,Oli Aspira,24.75,Jakarta,Palembang,Hazmat
+ORD000076,2026-03-17,Enterprise,Express,Oli Top1,1799.76,Surabaya,Makassar,None
+ORD000077,2026-03-18,SMB,Standard,Sparepart Motor,1130.31,Balikpapan,Manado,Fragile
+ORD000078,2026-03-19,SMB,Economy,Oli Top1,12.07,Medan,Jakarta,Hazmat
+ORD000079,2026-03-20,SMB,Economy,Oli Federal,13.02,Makassar,Bandung,None
+ORD000080,2026-03-21,Enterprise,Standard,Oli Top1,3458.96,Surabaya,Medan,Hazmat
+ORD000081,2026-03-22,Individual,Standard,Sparepart Motor,2495.1,Jakarta,Palembang,Fragile
+ORD000082,2026-03-23,Enterprise,Standard,Oli Aspira,107.63,Makassar,Balikpapan,None
+ORD000083,2026-03-24,SMB,Standard,Oli Top1,107.47,Surabaya,Semarang,Hazmat
+ORD000084,2026-03-25,Individual,Standard,Oli Federal,870.36,Jakarta,Pontianak,None
+ORD000085,2026-03-26,SMB,Standard,Oli Top1,395.79,Balikpapan,Manado,Hazmat
+ORD000086,2026-03-27,Individual,Economy,Sparepart Motor,1961.75,Medan,Jakarta,Fragile
+ORD000087,2026-03-28,SMB,Economy,Oli Top1,828.3,Makassar,Bandung,None
+ORD000088,2026-03-29,SMB,Economy,Oli Aspira,4335.3,Surabaya,Palembang,Fragile
+ORD000089,2026-03-30,Enterprise,Express,Oli Top1,1728.69,Balikpapan,Pontianak,Hazmat
+ORD000090,2026-03-31,SMB,Standard,Oli Federal,1189.35,Jakarta,Medan,Temperature_Controlled
+ORD000091,2026-04-01,Enterprise,Express,Sparepart Motor,237.89,Surabaya,Makassar,Fragile
+ORD000092,2026-04-02,Enterprise,Standard,Oli Top1,213.15,Jakarta,Semarang,Hazmat
+ORD000093,2026-04-03,Individual,Standard,Oli Aspira,373.29,Medan,Balikpapan,None
+ORD000094,2026-04-04,SMB,Economy,Oli Top1,6383.13,Surabaya,Pontianak,Hazmat
+ORD000095,2026-04-05,Individual,Standard,Oli Federal,219.33,Jakarta,Manado,None
+ORD000096,2026-04-06,SMB,Express,Oli Top1,596.33,Makassar,Bandung,Hazmat
+ORD000097,2026-04-07,Individual,Express,Sparepart Motor,13.91,Surabaya,Jakarta,Fragile
+ORD000098,2026-04-08,SMB,Economy,Oli Top1,1111.77,Medan,Palembang,None
+ORD000099,2026-04-09,SMB,Standard,Oli Aspira,11917.91,Balikpapan,Makassar,Hazmat
+ORD000100,2026-04-10,SMB,Express,Oli Top1,99.44,Jakarta,Pontianak,None
+ORD000101,2026-04-11,Enterprise,Express,Oli Federal,47177.07,Surabaya,Medan,Hazmat
+ORD000102,2026-04-12,Individual,Economy,Oli Top1,530.26,Makassar,Manado,None
+ORD000103,2026-04-13,Enterprise,Express,Sparepart Motor,8.5,Balikpapan,Jakarta,Fragile
+ORD000104,2026-04-14,Enterprise,Economy,Oli Top1,226.26,Surabaya,Bandung,Hazmat
+ORD000105,2026-04-15,SMB,Economy,Oli Aspira,2968.04,Makassar,Palembang,Temperature_Controlled
+ORD000106,2026-04-16,Enterprise,Express,Oli Top1,8094.79,Jakarta,Semarang,Hazmat
+ORD000107,2026-04-17,Individual,Express,Oli Federal,1184.59,Surabaya,Balikpapan,None
+ORD000108,2026-04-18,Individual,Economy,Oli Top1,4236.07,Makassar,Medan,Hazmat
+ORD000109,2026-04-19,Individual,Standard,Sparepart Motor,68.95,Jakarta,Pontianak,Fragile
+ORD000110,2026-04-20,SMB,Standard,Oli Top1,145.42,Balikpapan,Manado,None
+ORD000111,2026-04-21,Enterprise,Economy,Oli Aspira,32.49,Surabaya,Jakarta,Hazmat
+ORD000112,2026-04-22,Individual,Economy,Oli Top1,162.78,Makassar,Bandung,None
+ORD000113,2026-04-23,SMB,Economy,Oli Federal,1265.06,Medan,Palembang,Hazmat
+ORD000114,2026-04-24,Individual,Economy,Oli Top1,555.01,Jakarta,Surabaya,None
+ORD000115,2026-04-25,Individual,Standard,Oli Aspira,1482.93,Surabaya,Balikpapan,Temperature_Controlled
+ORD000116,2026-04-26,Individual,Express,Sparepart Motor,99.01,Makassar,Medan,Fragile
+ORD000117,2026-04-27,Enterprise,Economy,Oli Top1,108.5,Jakarta,Manado,Hazmat
+ORD000118,2026-04-28,SMB,Standard,Oli Top1,548.35,Balikpapan,Pontianak,None
+ORD000119,2026-04-29,Individual,Standard,Oli Federal,163.37,Surabaya,Palembang,Hazmat
+ORD000120,2026-04-30,SMB,Economy,Oli Top1,2843.45,Makassar,Jakarta,None
+ORD000121,2026-05-01,Enterprise,Express,Sparepart Motor,157.41,Medan,Surabaya,Fragile
+ORD000122,2026-05-02,SMB,Standard,Oli Aspira,191.89,Balikpapan,Makassar,Hazmat
+ORD000123,2026-05-03,Individual,Express,Oli Top1,756.16,Jakarta,Bandung,None
+ORD000124,2026-05-04,SMB,Standard,Oli Top1,224.99,Surabaya,Semarang,Hazmat
+ORD000125,2026-05-05,SMB,Express,Oli Federal,63.28,Medan,Palembang,None
+ORD000126,2026-05-06,Enterprise,Express,Sparepart Motor,77.55,Jakarta,Pontianak,Fragile
+ORD000127,2026-05-07,SMB,Express,Oli Top1,903.84,Makassar,Manado,Hazmat
+ORD000128,2026-05-08,Individual,Standard,Oli Aspira,52.56,Surabaya,Balikpapan,None
+ORD000129,2026-05-09,Enterprise,Economy,Oli Top1,3280.49,Balikpapan,Medan,Hazmat
+ORD000130,2026-05-10,SMB,Standard,Oli Federal,143.22,Jakarta,Palembang,None
+ORD000131,2026-05-11,Individual,Economy,Sparepart Motor,1016.71,Makassar,Semarang,Fragile
+ORD000132,2026-05-12,Individual,Standard,Oli Top1,156.71,Surabaya,Jakarta,Hazmat
+ORD000133,2026-05-13,SMB,Standard,Oli Top1,102.22,Balikpapan,Bandung,None
+ORD000134,2026-05-14,Individual,Economy,Oli Aspira,583.56,Medan,Manado,Temperature_Controlled
+ORD000135,2026-05-15,SMB,Standard,Oli Federal,1954.08,Jakarta,Pontianak,Hazmat
+ORD000136,2026-05-16,Enterprise,Economy,Oli Top1,278.37,Surabaya,Palembang,None
+ORD000137,2026-05-17,Individual,Express,Sparepart Motor,365.69,Makassar,Balikpapan,Fragile
+ORD000138,2026-05-18,Individual,Economy,Oli Top1,1354.42,Jakarta,Medan,Hazmat
+ORD000139,2026-05-19,Individual,Express,Oli Federal,1423.38,Surabaya,Manado,None
+ORD000140,2026-05-20,Individual,Economy,Sparepart Motor,380.8,Balikpapan,Palembang,Fragile
+ORD000141,2026-01-01,SMB,Standard,Oli Top1,207.43,Makassar,Semarang,Hazmat
+ORD000142,2026-01-05,SMB,Economy,Oli Aspira,456.68,Jakarta,Pontianak,None
+ORD000143,2026-01-10,Individual,Express,Oli Top1,302.97,Surabaya,Bandung,Hazmat
+ORD000144,2026-01-15,SMB,Standard,Oli Federal,645.14,Balikpapan,Medan,None
+ORD000145,2026-01-20,Individual,Economy,Oli Top1,67.26,Jakarta,Manado,Hazmat
+ORD000146,2026-01-25,Individual,Standard,Sparepart Motor,611.41,Makassar,Palembang,Fragile
+ORD000147,2026-02-01,Individual,Standard,Oli Top1,137.35,Surabaya,Jakarta,None
+ORD000148,2026-02-05,SMB,Standard,Oli Aspira,1570.0,Balikpapan,Pontianak,Hazmat
+ORD000149,2026-02-10,SMB,Standard,Oli Federal,147.13,Makassar,Medan,None
+ORD000150,2026-02-15,Enterprise,Standard,Sparepart Motor,151.01,Jakarta,Semarang,Fragile
+ORD000151,2026-02-20,SMB,Standard,Oli Top1,786.9,Surabaya,Bandung,Hazmat
+ORD000152,2026-02-25,Enterprise,Economy,Oli Top1,412.12,Makassar,Palembang,None
+ORD000153,2026-03-01,SMB,Express,Oli Federal,12270.8,Jakarta,Manado,Hazmat
+ORD000154,2026-03-05,SMB,Standard,Oli Top1,35.02,Balikpapan,Medan,Fragile
+ORD000155,2026-03-10,Enterprise,Economy,Sparepart Motor,475.7,Surabaya,Pontianak,None
+ORD000156,2026-03-15,SMB,Economy,Oli Aspira,2196.18,Makassar,Jakarta,Temperature_Controlled
+ORD000157,2026-03-20,Enterprise,Standard,Oli Top1,169.45,Medan,Surabaya,Hazmat
+ORD000158,2026-03-25,Enterprise,Standard,Oli Federal,102.94,Balikpapan,Palembang,None
+ORD000159,2026-03-30,Individual,Standard,Oli Top1,109.26,Jakarta,Manado,None
+ORD000160,2026-04-04,SMB,Express,Sparepart Motor,35.95,Surabaya,Bandung,Fragile
+ORD000161,2026-04-09,Enterprise,Standard,Oli Top1,3055.07,Makassar,Medan,Hazmat
+ORD000162,2026-04-14,SMB,Standard,Oli Aspira,246.06,Jakarta,Pontianak,None
+ORD000163,2026-04-19,Individual,Standard,Oli Top1,206.02,Balikpapan,Palembang,Hazmat
+ORD000164,2026-04-24,Enterprise,Express,Oli Federal,16.67,Surabaya,Jakarta,None
+ORD000165,2026-04-29,SMB,Economy,Sparepart Motor,46.97,Medan,Semarang,Fragile
+ORD000166,2026-05-04,Enterprise,Economy,Oli Top1,3633.98,Makassar,Balikpapan,Hazmat
+ORD000167,2026-05-09,Enterprise,Standard,Oli Aspira,635.66,Jakarta,Manado,None
+ORD000168,2026-05-14,SMB,Standard,Oli Top1,2320.99,Surabaya,Medan,Hazmat
+ORD000169,2026-05-15,SMB,Standard,Oli Federal,1919.82,Balikpapan,Pontianak,None
+ORD000170,2026-05-16,SMB,Economy,Oli Top1,89.93,Jakarta,Palembang,Hazmat
+ORD000171,2026-05-17,Individual,Standard,Oli Aspira,15440.85,Makassar,Surabaya,Temperature_Controlled
+ORD000172,2026-05-18,Individual,Express,Sparepart Motor,7514.57,Medan,Bandung,Fragile
+ORD000173,2026-05-19,SMB,Economy,Oli Top1,173.18,Surabaya,Jakarta,Hazmat
+ORD000174,2026-05-20,SMB,Economy,Oli Top1,1.91,Balikpapan,Manado,None
+ORD000175,2026-05-01,Individual,Economy,Oli Federal,236.32,Jakarta,Medan,Hazmat
+ORD000176,2026-05-05,Enterprise,Economy,Oli Top1,576.77,Surabaya,Palembang,Hazmat
+ORD000177,2026-05-10,SMB,Standard,Sparepart Motor,172.16,Makassar,Pontianak,Fragile
+ORD000178,2026-05-15,Enterprise,Standard,Oli Aspira,289.37,Medan,Balikpapan,None
+ORD000179,2026-05-20,Enterprise,Economy,Oli Top1,116.4,Jakarta,Semarang,Hazmat
+ORD000180,2026-01-15,Individual,Economy,Oli Federal,1607.53,Surabaya,Manado,None
+ORD000181,2026-02-10,Individual,Express,Sparepart Motor,443.83,Balikpapan,Palembang,Fragile
+ORD000182,2026-03-05,SMB,Express,Oli Top1,1681.21,Jakarta,Medan,Hazmat
+ORD000183,2026-03-20,SMB,Standard,Oli Aspira,2523.26,Makassar,Pontianak,None
+ORD000184,2026-04-05,Enterprise,Economy,Oli Top1,15.46,Surabaya,Bandung,Hazmat
+ORD000185,2026-04-20,Enterprise,Economy,Sparepart Motor,127.0,Medan,Jakarta,Fragile
+ORD000186,2026-05-01,Enterprise,Express,Oli Top1,158.22,Makassar,Manado,Hazmat
+ORD000187,2026-05-05,SMB,Standard,Oli Federal,19092.65,Balikpapan,Surabaya,None
+ORD000188,2026-05-10,Individual,Standard,Oli Top1,504.47,Jakarta,Palembang,Hazmat
+ORD000189,2026-05-15,SMB,Economy,Sparepart Motor,1364.91,Surabaya,Medan,Fragile
+ORD000190,2026-05-20,Enterprise,Economy,Oli Aspira,24.02,Makassar,Pontianak,None
+ORD000191,2026-01-10,Individual,Economy,Oli Top1,500.11,Jakarta,Bandung,Hazmat
+ORD000192,2026-02-15,Individual,Standard,Sparepart Motor,1750.12,Medan,Balikpapan,Fragile
+ORD000193,2026-03-10,SMB,Standard,Oli Top1,1469.9,Surabaya,Manado,Hazmat
+ORD000194,2026-04-05,SMB,Standard,Oli Federal,1027.72,Makassar,Palembang,None
+ORD000195,2026-04-20,SMB,Express,Oli Aspira,411.37,Jakarta,Medan,Hazmat
+ORD000196,2026-05-05,Enterprise,Economy,Oli Top1,442.46,Surabaya,Pontianak,None
+ORD000197,2026-05-10,SMB,Economy,Sparepart Motor,31.82,Balikpapan,Jakarta,Fragile
+ORD000198,2026-05-15,Individual,Economy,Oli Top1,104.5,Makassar,Semarang,Hazmat
+ORD000199,2026-05-18,Enterprise,Economy,Oli Federal,570.44,Medan,Manado,None
+ORD000200,2026-05-20,Enterprise,Standard,Oli Top1,137.83,Surabaya,Bandung,Hazmat

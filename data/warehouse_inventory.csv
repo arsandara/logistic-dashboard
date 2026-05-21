@@ -1,36 +1,141 @@
 Warehouse_ID,Location,Product_Category,Current_Stock_Units,Reorder_Level,Storage_Cost_per_Unit,Last_Restocked_Date
-WH001_Mumbai,Mumbai,Electronics,3042,925,18.32,2025-10-06
-WH001_Mumbai,Mumbai,Fashion,1800,798,13.07,2025-10-07
-WH001_Mumbai,Mumbai,Food & Beverage,4690,823,10.29,2025-10-04
-WH001_Mumbai,Mumbai,Healthcare,3418,815,43.83,2025-10-16
-WH001_Mumbai,Mumbai,Industrial,745,819,28.17,2025-09-29
-WH001_Mumbai,Mumbai,Books,4953,488,20.54,2025-10-10
-WH001_Mumbai,Mumbai,Home Goods,598,833,20.94,2025-09-23
-WH002_Delhi,Delhi,Electronics,214,873,28.37,2025-09-23
-WH002_Delhi,Delhi,Fashion,2353,878,7.6,2025-09-29
-WH002_Delhi,Delhi,Food & Beverage,246,317,14.88,2025-09-23
-WH002_Delhi,Delhi,Healthcare,2510,708,23.66,2025-10-20
-WH002_Delhi,Delhi,Industrial,3105,680,29.34,2025-10-11
-WH002_Delhi,Delhi,Books,548,553,23.54,2025-09-29
-WH002_Delhi,Delhi,Home Goods,2020,292,28.96,2025-10-08
-WH003_Bangalore,Bangalore,Electronics,2707,632,27.31,2025-09-22
-WH003_Bangalore,Bangalore,Fashion,3072,494,11.43,2025-09-25
-WH003_Bangalore,Bangalore,Food & Beverage,4266,468,22.63,2025-10-04
-WH003_Bangalore,Bangalore,Healthcare,916,302,23.87,2025-10-04
-WH003_Bangalore,Bangalore,Industrial,3745,728,43.58,2025-09-24
-WH003_Bangalore,Bangalore,Books,1888,586,30.23,2025-09-30
-WH003_Bangalore,Bangalore,Home Goods,2563,993,16.4,2025-09-26
-WH004_Chennai,Chennai,Electronics,3993,867,36.38,2025-09-27
-WH004_Chennai,Chennai,Fashion,4004,292,41.96,2025-10-05
-WH004_Chennai,Chennai,Food & Beverage,2572,698,10.73,2025-09-29
-WH004_Chennai,Chennai,Healthcare,3916,398,25.31,2025-10-02
-WH004_Chennai,Chennai,Industrial,758,628,26.8,2025-10-10
-WH004_Chennai,Chennai,Books,3864,741,34.15,2025-10-03
-WH004_Chennai,Chennai,Home Goods,2582,583,14.16,2025-10-13
-WH005_Kolkata,Kolkata,Electronics,2681,717,22.52,2025-09-26
-WH005_Kolkata,Kolkata,Fashion,2439,534,8.0,2025-09-26
-WH005_Kolkata,Kolkata,Food & Beverage,3220,884,25.27,2025-10-08
-WH005_Kolkata,Kolkata,Healthcare,2704,534,15.42,2025-09-22
-WH005_Kolkata,Kolkata,Industrial,734,945,19.45,2025-10-02
-WH005_Kolkata,Kolkata,Books,102,893,37.82,2025-10-13
-WH005_Kolkata,Kolkata,Home Goods,2721,843,25.89,2025-10-01
+WH001_Makassar,Makassar,Oli Top1,1660,750,28.18,2026-04-01
+WH002_Jakarta,Jakarta,Oli Federal,2438,601,17.81,2026-04-02
+WH003_Surabaya,Surabaya,Oli Aspira,1130,567,21.01,2026-04-03
+WH004_Balikpapan,Balikpapan,Sparepart Motor,930,629,16.02,2026-04-04
+WH005_Medan,Medan,Oli Top1,3191,893,18.82,2026-04-05
+WH001_Makassar,Makassar,Oli Federal,2015,756,26.11,2026-04-06
+WH002_Jakarta,Jakarta,Oli Aspira,821,732,22.78,2026-04-07
+WH003_Surabaya,Surabaya,Sparepart Motor,1274,538,22.2,2026-04-08
+WH004_Balikpapan,Balikpapan,Oli Top1,2847,667,21.59,2026-04-09
+WH005_Medan,Medan,Oli Federal,989,654,26.13,2026-04-10
+WH001_Makassar,Makassar,Oli Aspira,2699,534,32.7,2026-04-11
+WH002_Jakarta,Jakarta,Sparepart Motor,2328,610,30.48,2026-04-12
+WH003_Surabaya,Surabaya,Oli Top1,1446,500,23.11,2026-04-13
+WH004_Balikpapan,Balikpapan,Oli Federal,2097,867,31.96,2026-04-14
+WH005_Medan,Medan,Oli Aspira,2861,721,21.94,2026-04-15
+WH001_Makassar,Makassar,Sparepart Motor,2163,571,22.92,2026-04-16
+WH002_Jakarta,Jakarta,Oli Top1,2278,743,15.62,2026-04-17
+WH003_Surabaya,Surabaya,Oli Federal,3053,560,19.66,2026-04-18
+WH004_Balikpapan,Balikpapan,Oli Aspira,1821,869,18.74,2026-04-19
+WH005_Medan,Medan,Sparepart Motor,2300,670,30.16,2026-04-20
+WH001_Makassar,Makassar,Oli Top1,2379,641,22.11,2026-04-21
+WH002_Jakarta,Jakarta,Oli Federal,1795,749,28.09,2026-04-22
+WH003_Surabaya,Surabaya,Oli Aspira,1255,694,24.38,2026-04-23
+WH004_Balikpapan,Balikpapan,Sparepart Motor,3143,692,22.0,2026-04-24
+WH005_Medan,Medan,Oli Top1,1137,846,29.92,2026-04-25
+WH001_Makassar,Makassar,Oli Federal,3064,731,25.93,2026-04-26
+WH002_Jakarta,Jakarta,Oli Aspira,1292,520,20.33,2026-04-27
+WH003_Surabaya,Surabaya,Sparepart Motor,864,824,32.76,2026-04-28
+WH004_Balikpapan,Balikpapan,Oli Top1,2167,608,18.58,2026-04-29
+WH005_Medan,Medan,Oli Federal,2295,542,29.68,2026-04-30
+WH001_Makassar,Makassar,Oli Aspira,1191,642,29.22,2026-05-01
+WH002_Jakarta,Jakarta,Sparepart Motor,1178,740,31.67,2026-05-02
+WH003_Surabaya,Surabaya,Oli Top1,2888,507,30.54,2026-05-03
+WH004_Balikpapan,Balikpapan,Oli Federal,2663,747,20.96,2026-05-04
+WH005_Medan,Medan,Oli Aspira,1302,886,27.04,2026-05-05
+WH001_Makassar,Makassar,Sparepart Motor,1604,578,25.64,2026-05-06
+WH002_Jakarta,Jakarta,Oli Top1,2370,706,17.15,2026-05-07
+WH003_Surabaya,Surabaya,Oli Federal,2285,610,28.69,2026-05-08
+WH004_Balikpapan,Balikpapan,Oli Aspira,1302,734,19.61,2026-05-09
+WH005_Medan,Medan,Sparepart Motor,1192,686,22.7,2026-05-10
+WH001_Makassar,Makassar,Oli Top1,2284,658,15.57,2026-05-11
+WH002_Jakarta,Jakarta,Oli Federal,1363,575,27.52,2026-05-12
+WH003_Surabaya,Surabaya,Oli Aspira,3078,716,24.72,2026-05-13
+WH004_Balikpapan,Balikpapan,Sparepart Motor,1340,515,31.97,2026-05-14
+WH005_Medan,Medan,Oli Top1,2522,722,17.9,2026-05-15
+WH001_Makassar,Makassar,Oli Federal,2397,613,23.22,2026-05-16
+WH002_Jakarta,Jakarta,Oli Aspira,2443,523,22.5,2026-05-17
+WH003_Surabaya,Surabaya,Sparepart Motor,2781,810,20.84,2026-05-18
+WH004_Balikpapan,Balikpapan,Oli Top1,2838,827,21.41,2026-05-19
+WH005_Medan,Medan,Oli Federal,3037,704,19.9,2026-05-20
+WH001_Makassar,Makassar,Oli Aspira,2106,600,29.72,2026-05-21
+WH002_Jakarta,Jakarta,Sparepart Motor,2568,738,15.13,2026-05-22
+WH003_Surabaya,Surabaya,Oli Top1,2279,890,22.51,2026-05-23
+WH004_Balikpapan,Balikpapan,Oli Federal,2057,651,19.39,2026-05-24
+WH005_Medan,Medan,Oli Aspira,2431,712,22.27,2026-05-25
+WH001_Makassar,Makassar,Sparepart Motor,2653,531,19.44,2026-05-26
+WH002_Jakarta,Jakarta,Oli Top1,2436,592,32.96,2026-05-27
+WH003_Surabaya,Surabaya,Oli Federal,1498,592,32.58,2026-05-28
+WH004_Balikpapan,Balikpapan,Oli Aspira,3067,533,15.59,2026-05-29
+WH005_Medan,Medan,Sparepart Motor,2559,704,26.42,2026-05-30
+WH001_Makassar,Makassar,Oli Top1,2461,609,24.56,2026-04-01
+WH002_Jakarta,Jakarta,Oli Federal,2495,677,19.36,2026-04-02
+WH003_Surabaya,Surabaya,Oli Aspira,1635,682,21.65,2026-04-03
+WH004_Balikpapan,Balikpapan,Sparepart Motor,1200,734,29.46,2026-04-04
+WH005_Medan,Medan,Oli Top1,997,874,29.7,2026-04-05
+WH001_Makassar,Makassar,Oli Federal,2991,576,17.71,2026-04-06
+WH002_Jakarta,Jakarta,Oli Aspira,986,805,27.52,2026-04-07
+WH003_Surabaya,Surabaya,Sparepart Motor,2594,627,20.87,2026-04-08
+WH004_Balikpapan,Balikpapan,Oli Top1,2755,882,27.8,2026-04-09
+WH005_Medan,Medan,Oli Federal,2334,626,21.28,2026-04-10
+WH001_Makassar,Makassar,Oli Aspira,2534,787,31.93,2026-04-11
+WH002_Jakarta,Jakarta,Sparepart Motor,2759,607,24.32,2026-04-12
+WH003_Surabaya,Surabaya,Oli Top1,1440,746,21.14,2026-04-13
+WH004_Balikpapan,Balikpapan,Oli Federal,2769,630,24.75,2026-04-14
+WH005_Medan,Medan,Oli Aspira,2434,742,26.88,2026-04-15
+WH001_Makassar,Makassar,Sparepart Motor,3193,591,24.99,2026-04-16
+WH002_Jakarta,Jakarta,Oli Top1,1680,481,32.93,2026-04-17
+WH003_Surabaya,Surabaya,Oli Federal,3101,619,25.05,2026-04-18
+WH004_Balikpapan,Balikpapan,Oli Aspira,1983,488,20.02,2026-04-19
+WH005_Medan,Medan,Sparepart Motor,2482,783,30.24,2026-04-20
+WH001_Makassar,Makassar,Oli Top1,1203,631,22.28,2026-04-21
+WH002_Jakarta,Jakarta,Oli Federal,2496,887,30.32,2026-04-22
+WH003_Surabaya,Surabaya,Oli Aspira,2448,899,31.17,2026-04-23
+WH004_Balikpapan,Balikpapan,Sparepart Motor,1053,706,21.7,2026-04-24
+WH005_Medan,Medan,Oli Top1,2296,578,32.53,2026-04-25
+WH001_Makassar,Makassar,Oli Federal,2719,845,24.88,2026-04-26
+WH002_Jakarta,Jakarta,Oli Aspira,1756,648,18.17,2026-04-27
+WH003_Surabaya,Surabaya,Sparepart Motor,2403,768,23.89,2026-04-28
+WH004_Balikpapan,Balikpapan,Oli Top1,1615,883,21.6,2026-04-29
+WH005_Medan,Medan,Oli Federal,2215,614,27.98,2026-04-30
+WH001_Makassar,Makassar,Oli Aspira,1439,512,24.77,2026-05-01
+WH002_Jakarta,Jakarta,Sparepart Motor,1754,850,26.45,2026-05-02
+WH003_Surabaya,Surabaya,Oli Top1,1845,717,25.62,2026-05-03
+WH004_Balikpapan,Balikpapan,Oli Federal,3077,844,23.76,2026-05-04
+WH005_Medan,Medan,Oli Aspira,2599,762,22.82,2026-05-05
+WH001_Makassar,Makassar,Sparepart Motor,1597,576,25.38,2026-05-06
+WH002_Jakarta,Jakarta,Oli Top1,1759,796,23.99,2026-05-07
+WH003_Surabaya,Surabaya,Oli Federal,1346,671,26.62,2026-05-08
+WH004_Balikpapan,Balikpapan,Oli Aspira,816,651,31.93,2026-05-09
+WH005_Medan,Medan,Sparepart Motor,1869,852,30.9,2026-05-10
+WH001_Makassar,Makassar,Oli Top1,2348,758,28.58,2026-05-11
+WH002_Jakarta,Jakarta,Oli Federal,1672,765,31.25,2026-05-12
+WH003_Surabaya,Surabaya,Oli Aspira,2909,563,29.88,2026-05-13
+WH004_Balikpapan,Balikpapan,Sparepart Motor,2165,876,31.12,2026-05-14
+WH005_Medan,Medan,Oli Top1,3024,579,15.2,2026-05-15
+WH001_Makassar,Makassar,Oli Federal,875,744,20.75,2026-05-16
+WH002_Jakarta,Jakarta,Oli Aspira,1517,702,32.11,2026-05-17
+WH003_Surabaya,Surabaya,Sparepart Motor,1650,846,16.5,2026-05-18
+WH004_Balikpapan,Balikpapan,Oli Top1,1195,504,24.97,2026-05-19
+WH005_Medan,Medan,Oli Federal,2292,532,29.25,2026-05-20
+WH001_Makassar,Makassar,Oli Aspira,1862,588,31.76,2026-05-21
+WH002_Jakarta,Jakarta,Sparepart Motor,2009,877,24.89,2026-05-22
+WH003_Surabaya,Surabaya,Oli Top1,1956,642,30.98,2026-05-23
+WH004_Balikpapan,Balikpapan,Oli Federal,1034,810,17.11,2026-05-24
+WH005_Medan,Medan,Oli Aspira,1753,880,16.82,2026-05-25
+WH001_Makassar,Makassar,Sparepart Motor,2342,653,27.62,2026-05-26
+WH002_Jakarta,Jakarta,Oli Top1,3017,872,29.79,2026-05-27
+WH003_Surabaya,Surabaya,Oli Federal,2017,484,24.24,2026-05-28
+WH004_Balikpapan,Balikpapan,Oli Aspira,2245,818,25.46,2026-05-29
+WH005_Medan,Medan,Sparepart Motor,2188,800,30.85,2026-05-30
+WH001_Makassar,Makassar,Oli Top1,2480,806,32.75,2026-04-01
+WH002_Jakarta,Jakarta,Oli Federal,1955,771,21.77,2026-04-02
+WH003_Surabaya,Surabaya,Oli Aspira,2610,843,25.05,2026-04-03
+WH004_Balikpapan,Balikpapan,Sparepart Motor,890,681,31.31,2026-04-04
+WH005_Medan,Medan,Oli Top1,838,605,23.87,2026-04-05
+WH001_Makassar,Makassar,Oli Federal,1452,721,23.44,2026-04-06
+WH002_Jakarta,Jakarta,Oli Aspira,1881,627,17.14,2026-04-07
+WH003_Surabaya,Surabaya,Sparepart Motor,1628,862,26.69,2026-04-08
+WH004_Balikpapan,Balikpapan,Oli Top1,2796,827,32.32,2026-04-09
+WH005_Medan,Medan,Oli Federal,2014,848,16.49,2026-04-10
+WH001_Makassar,Makassar,Oli Aspira,1728,596,32.34,2026-04-11
+WH002_Jakarta,Jakarta,Sparepart Motor,1484,639,25.01,2026-04-12
+WH003_Surabaya,Surabaya,Oli Top1,1614,628,15.78,2026-04-13
+WH004_Balikpapan,Balikpapan,Oli Federal,1002,731,16.33,2026-04-14
+WH005_Medan,Medan,Oli Aspira,2050,626,32.45,2026-04-15
+WH001_Makassar,Makassar,Sparepart Motor,2894,712,18.9,2026-04-16
+WH002_Jakarta,Jakarta,Oli Top1,1966,894,32.92,2026-04-17
+WH003_Surabaya,Surabaya,Oli Federal,1270,491,32.26,2026-04-18
+WH004_Balikpapan,Balikpapan,Oli Aspira,1767,837,23.2,2026-04-19
+WH005_Medan,Medan,Sparepart Motor,1467,852,19.99,2026-04-20
